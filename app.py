@@ -81,7 +81,7 @@ def kereses():
     menu()
 def menu():
     print("")
-    print ("1.Aktualis\n2.Tervezett\n3.Felfuggesztett\n4.Dobott\n5.Befejezett\n6.Kereses\n7.Azonosito megadasa")
+    print ("1.Aktualis\n2.Tervezett\n3.Felfuggesztett\n4.Dobott\n5.Befejezett\n6.Kereses\n7.Azonosito megadasa\n0.Kilepes")
     chose=input()
     if(int(chose)==1):akt()
     if(int(chose)==2):terv()
