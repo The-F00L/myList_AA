@@ -74,6 +74,9 @@ def befejezett():
     for x in befejezLista:
         print(x)
     menu()
+def kereses():
+    print("meg nincs megcsinalva")
+    menu()
 def menu():
     print("\n\n")
     print ("1.aktualis\n2.tervezett\n3.felfuggesztett\n4.dobott\n5.befejezett\n6.kereses")
